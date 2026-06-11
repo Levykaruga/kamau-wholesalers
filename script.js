@@ -1,10 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-console.log("Kamau Wholesalers Dashboard Loaded");
+console.log("Kamau Wholesalers Loaded");
 
-document.querySelectorAll("button").forEach(btn => {
+const buttons =
+document.querySelectorAll("button");
 
-btn.addEventListener("click", () => {
+buttons.forEach(button => {
+
+button.addEventListener("click", () => {
 
 alert(
 "Quotation request feature coming soon."
